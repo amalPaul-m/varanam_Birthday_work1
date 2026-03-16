@@ -1,0 +1,1848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>വാഹനാപകടം: ജോയൽ ടെഡി തെക്കേക്കരയ്ക്കെതിരെ കേസ് | MediaOne</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --red:#e8001c;
+  --red-dark:#b30016;
+  --dark:#1a1a1a;
+  --mid:#444;
+  --muted:#777;
+  --border:#e2e2e2;
+  --bg:#f4f4f4;
+  --white:#fff;
+  --blue:#1877f2;
+  --green:#25d366;
+  --font-body:'Barlow',sans-serif;
+  --font-serif:'Noto Serif',serif;
+  --font-cond:'Barlow Condensed',sans-serif;
+}
+
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--bg);color:var(--dark);font-size:15px;line-height:1.6}
+
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+button{cursor:pointer;font-family:inherit}
+
+/* ─── TOP BAR ─── */
+.top-bar{
+  background:var(--dark);
+  color:rgba(255,255,255,.7);
+  font-size:11.5px;
+  padding:5px 0;
+}
+.top-bar-inner{
+  max-width:1200px;margin:0 auto;padding:0 16px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.top-bar a{color:rgba(255,255,255,.65);font-size:11px}
+.top-bar a:hover{color:#fff}
+.top-bar-left{display:flex;gap:14px;align-items:center}
+.top-bar-right{display:flex;gap:12px;align-items:center}
+.top-bar-date{font-size:11px;color:rgba(255,255,255,.5)}
+.social-icon{
+  width:24px;height:24px;border-radius:4px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:700;color:#fff;
+}
+.si-fb{background:#1877f2}
+.si-yt{background:#ff0000}
+.si-tw{background:#000}
+.si-ig{background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)}
+.si-tg{background:#0088cc}
+
+/* ─── HEADER ─── */
+header{background:#fff;border-bottom:3px solid var(--red);position:sticky;top:0;z-index:200;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.header-main{
+  max-width:1200px;margin:0 auto;padding:10px 16px;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+}
+.logo-wrap{display:flex;align-items:center;gap:0;flex-shrink:0}
+.logo-img{
+  height:44px;display:flex;align-items:center;
+}
+.logo-text{
+  font-family:var(--font-cond);font-size:32px;font-weight:800;
+  color:var(--red);letter-spacing:-0.5px;line-height:1;
+  display:flex;align-items:center;gap:2px;
+}
+.logo-text .logo-m{color:var(--dark)}
+.logo-text .logo-1{
+  background:var(--red);color:#fff;
+  padding:1px 5px;margin:0 1px;
+  font-size:28px;border-radius:2px;
+}
+.logo-badge{
+  background:var(--red);color:#fff;
+  font-size:9px;font-weight:700;letter-spacing:1px;
+  padding:2px 5px;margin-left:6px;border-radius:2px;
+  align-self:flex-start;margin-top:4px;
+}
+.header-search{
+  flex:1;max-width:340px;
+  display:flex;border:1.5px solid var(--border);border-radius:4px;overflow:hidden;
+}
+.header-search input{
+  flex:1;border:none;outline:none;padding:8px 12px;
+  font-size:13px;font-family:inherit;background:#f9f9f9;color:var(--dark);
+}
+.header-search button{
+  background:var(--red);border:none;color:#fff;
+  padding:8px 14px;font-size:14px;
+}
+.header-actions{display:flex;gap:8px;align-items:center;flex-shrink:0}
+.btn-app{
+  background:var(--dark);color:#fff;border:none;
+  padding:7px 14px;font-size:12px;font-weight:600;border-radius:4px;
+  display:flex;align-items:center;gap:5px;
+}
+.btn-login{
+  background:var(--red);color:#fff;border:none;
+  padding:7px 16px;font-size:12px;font-weight:600;border-radius:4px;
+}
+
+/* ─── NAV ─── */
+.main-nav{background:#fff;border-bottom:1px solid var(--border)}
+.nav-inner{
+  max-width:1200px;margin:0 auto;
+  display:flex;overflow-x:auto;scrollbar-width:none;
+}
+.nav-inner::-webkit-scrollbar{display:none}
+.nav-inner a{
+  white-space:nowrap;padding:11px 15px;
+  font-size:13px;font-weight:600;color:var(--mid);
+  border-bottom:3px solid transparent;
+  transition:color .2s,border-color .2s;
+  display:flex;align-items:center;gap:5px;
+}
+.nav-inner a:hover,.nav-inner a.active{color:var(--red);border-bottom-color:var(--red)}
+.nav-inner a .nav-dot{
+  width:6px;height:6px;border-radius:50%;background:var(--red);
+  display:inline-block;
+}
+.live-badge{
+  background:var(--red);color:#fff;
+  font-size:9px;font-weight:700;letter-spacing:.5px;
+  padding:2px 5px;border-radius:2px;
+}
+
+/* ─── BREAKING TICKER ─── */
+.breaking-bar{
+  background:#fff;border-bottom:2px solid var(--border);
+  display:flex;overflow:hidden;
+}
+.breaking-label{
+  background:var(--red);color:#fff;
+  font-family:var(--font-cond);font-size:13px;font-weight:700;
+  letter-spacing:1px;padding:8px 14px;white-space:nowrap;
+  display:flex;align-items:center;gap:6px;flex-shrink:0;
+}
+.breaking-label::before{
+  content:'';width:6px;height:6px;border-radius:50%;background:#fff;
+  animation:blink 1s ease-in-out infinite;
+}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.ticker-wrap{flex:1;overflow:hidden;display:flex;align-items:center}
+.ticker-scroll{
+  display:inline-flex;white-space:nowrap;
+  animation:scrollTicker 35s linear infinite;
+  font-size:13px;color:var(--mid);
+  padding:8px 0;
+}
+@keyframes scrollTicker{
+  0%{transform:translateX(0)}
+  100%{transform:translateX(-50%)}
+}
+.ticker-sep{color:var(--red);margin:0 18px;font-weight:700}
+
+/* ─── LAYOUT ─── */
+.page-container{max-width:1200px;margin:0 auto;padding:0 16px}
+.content-grid{
+  display:grid;
+  grid-template-columns:1fr 308px;
+  gap:24px;
+  padding:20px 0 40px;
+}
+
+/* ─── BREADCRUMB ─── */
+.breadcrumb{
+  display:flex;align-items:center;gap:6px;
+  font-size:12px;color:var(--muted);
+  padding:14px 0 0;flex-wrap:wrap;
+}
+.breadcrumb a{color:var(--red)}
+.breadcrumb a:hover{text-decoration:underline}
+.breadcrumb span{color:var(--muted)}
+
+/* ─── ARTICLE ─── */
+.article-main{}
+
+.article-category-tag{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--red);color:#fff;
+  font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
+  padding:4px 10px;border-radius:2px;margin-bottom:14px;
+}
+.article-category-tag .tag-icon{font-size:10px}
+
+.article-title{
+  font-family:var(--font-serif);
+  font-size:26px;font-weight:700;line-height:1.35;
+  color:var(--dark);margin-bottom:10px;
+}
+
+.article-subtitle{
+  font-size:16px;color:var(--mid);line-height:1.6;
+  margin-bottom:16px;
+  font-style:italic;
+  border-left:3px solid var(--red);
+  padding-left:12px;
+}
+
+/* Meta bar */
+.article-meta-bar{
+  display:flex;align-items:center;gap:12px;
+  padding:12px 0;
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  margin-bottom:16px;flex-wrap:wrap;
+}
+.meta-author{display:flex;align-items:center;gap:8px}
+.author-avatar{
+  width:36px;height:36px;border-radius:50%;
+  background:linear-gradient(135deg,var(--red),var(--red-dark));
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;font-weight:700;font-size:14px;flex-shrink:0;
+}
+.author-name{font-size:13px;font-weight:600;color:var(--dark)}
+.author-title{font-size:11px;color:var(--muted)}
+.meta-divider{width:1px;height:32px;background:var(--border)}
+.meta-time{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:2px}
+.meta-time strong{color:var(--mid);font-weight:600}
+.meta-views{
+  margin-left:auto;
+  display:flex;align-items:center;gap:4px;
+  font-size:12px;color:var(--muted);
+}
+
+/* Share strip */
+.share-strip{
+  display:flex;gap:6px;align-items:center;
+  margin-bottom:18px;flex-wrap:wrap;
+}
+.share-strip-label{font-size:12px;color:var(--muted);font-weight:600;margin-right:4px}
+.sh-btn{
+  display:flex;align-items:center;gap:5px;
+  padding:7px 12px;border:none;border-radius:3px;
+  font-size:12px;font-weight:600;color:#fff;
+  transition:opacity .2s,transform .1s;
+}
+.sh-btn:hover{opacity:.88;transform:translateY(-1px)}
+.sh-btn.fb{background:#1877f2}
+.sh-btn.wa{background:#25d366}
+.sh-btn.tw{background:#000}
+.sh-btn.copy{background:var(--mid);color:#fff}
+.sh-count{
+  margin-left:auto;
+  font-size:12px;color:var(--muted);
+  display:flex;align-items:center;gap:4px;
+}
+
+/* Featured image */
+.featured-img-wrap{margin-bottom:6px;position:relative;overflow:hidden}
+.featured-img-placeholder{
+  width:100%;aspect-ratio:16/9;
+  background:linear-gradient(160deg,#1c2a40 0%,#2d3f5c 40%,#1a3050 70%,#0e1e34 100%);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  position:relative;overflow:hidden;
+}
+.fimg-scene{
+  position:absolute;inset:0;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:flex-end;
+  padding:20px;
+}
+.fimg-crowd{
+  width:100%;height:55%;
+  background:linear-gradient(to top, rgba(0,0,0,.6), transparent);
+  display:flex;align-items:flex-end;justify-content:center;
+  gap:0;
+}
+.fimg-person{
+  width:18px;
+  background:rgba(255,255,255,.12);
+  margin:0 1px;
+  border-radius:50% 50% 0 0 / 40% 40% 0 0;
+}
+.fimg-banner{
+  position:absolute;top:20%;left:50%;transform:translateX(-50%);
+  background:rgba(232,0,28,.85);
+  color:#fff;font-weight:700;font-size:13px;
+  padding:6px 20px;border-radius:2px;
+  white-space:nowrap;
+  box-shadow:0 4px 16px rgba(0,0,0,.3);
+}
+.fimg-flag{
+  position:absolute;top:10%;left:10%;
+  font-size:32px;opacity:.6;
+  animation:flagWave 3s ease-in-out infinite;
+}
+@keyframes flagWave{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+.fimg-caption{
+  position:absolute;bottom:0;left:0;right:0;
+  background:linear-gradient(transparent,rgba(0,0,0,.7));
+  color:rgba(255,255,255,.85);font-size:12px;
+  padding:20px 14px 10px;
+}
+.img-credit{font-size:11.5px;color:var(--muted);margin-bottom:18px;font-style:italic}
+
+/* Inline article images */
+.article-img-wrap{
+  margin:24px 0;
+  border:1px solid var(--border);
+  border-radius:3px;
+  overflow:hidden;
+  background:#f0f0f0;
+}
+.article-img-wrap img{
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+  display:block;
+}
+.article-img-caption{
+  background:#f9f9f9;
+  padding:8px 12px;
+  font-size:12px;
+  color:var(--muted);
+  font-style:italic;
+  border-top:1px solid var(--border);
+}
+
+/* Article body */
+.article-body{font-family:var(--font-serif);font-size:16px;line-height:1.85;color:#2d2d2d}
+.article-body p{margin-bottom:18px}
+.article-body .lead-para::first-letter{
+  font-size:62px;font-weight:700;float:left;
+  line-height:.82;margin:6px 10px 0 0;color:var(--red);
+  font-family:var(--font-cond);
+}
+.pull-quote{
+  margin:24px 0;padding:18px 20px;
+  border-left:4px solid var(--red);
+  background:#fff8f8;
+  font-size:17px;line-height:1.6;color:var(--dark);
+  font-style:italic;border-radius:0 4px 4px 0;
+}
+.article-body h2{
+  font-family:var(--font-cond);font-size:22px;font-weight:700;
+  color:var(--dark);margin:28px 0 12px;
+  padding-bottom:8px;border-bottom:2px solid var(--border);
+  letter-spacing:.3px;
+}
+.article-highlight{
+  background:linear-gradient(180deg,transparent 60%,rgba(232,0,28,.12) 60%);
+  display:inline;
+}
+.tag-chips{display:flex;gap:6px;flex-wrap:wrap;margin:20px 0}
+.tag-chip{
+  background:#f0f0f0;color:var(--mid);
+  font-size:11.5px;font-weight:600;padding:4px 10px;border-radius:20px;
+  border:1px solid var(--border);
+  transition:background .2s,color .2s;
+}
+.tag-chip:hover{background:var(--red);color:#fff;border-color:var(--red)}
+
+/* Show More */
+.show-more-section{
+  margin:28px 0;text-align:center;position:relative;
+}
+.show-more-section::before{
+  content:'';position:absolute;top:50%;left:0;right:0;
+  height:1px;background:linear-gradient(90deg,transparent,var(--border) 20%,var(--border) 80%,transparent);
+}
+.show-more-btn{
+  position:relative;
+  background:var(--red);color:#fff;border:none;
+  padding:12px 32px;font-family:var(--font-cond);
+  font-size:15px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;
+  border-radius:3px;
+  box-shadow:0 4px 20px rgba(232,0,28,.35);
+  transition:background .2s,transform .15s,box-shadow .2s;
+  display:inline-flex;align-items:center;gap:8px;
+}
+.show-more-btn:hover{
+  background:var(--red-dark);transform:translateY(-2px);
+  box-shadow:0 8px 28px rgba(232,0,28,.45);
+}
+.show-more-btn:active{transform:translateY(0)}
+.show-more-btn .btn-arrow{
+  font-size:18px;transition:transform .3s;
+}
+.show-more-btn:hover .btn-arrow{transform:translateY(3px)}
+
+/* Extra content */
+#extra-content{display:none}
+#extra-content.visible{display:block;animation:fadeInSlide .4s ease}
+@keyframes fadeInSlide{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+
+/* ─── SIDEBAR ─── */
+.sidebar{}
+.widget{background:#fff;border:1px solid var(--border);margin-bottom:18px;overflow:hidden}
+.widget-head{
+  background:var(--dark);color:#fff;
+  font-family:var(--font-cond);font-size:14px;font-weight:700;
+  letter-spacing:1.5px;text-transform:uppercase;
+  padding:10px 14px;
+  display:flex;align-items:center;gap:8px;
+}
+.widget-head::before{
+  content:'';width:3px;height:16px;background:var(--red);border-radius:2px;flex-shrink:0;
+}
+.trending-list{padding:0}
+.trending-item{
+  display:flex;gap:12px;align-items:flex-start;
+  padding:12px 14px;border-bottom:1px solid var(--border);
+  transition:background .15s;cursor:pointer;
+}
+.trending-item:last-child{border-bottom:none}
+.trending-item:hover{background:#fafafa}
+.t-num{
+  font-family:var(--font-cond);font-size:28px;font-weight:800;
+  color:var(--border);line-height:1;flex-shrink:0;width:28px;
+  transition:color .2s;
+}
+.trending-item:hover .t-num{color:rgba(232,0,28,.25)}
+.t-info{}
+.t-title{font-size:13px;font-weight:600;line-height:1.4;color:var(--dark);margin-bottom:3px}
+.t-meta{font-size:11px;color:var(--muted);display:flex;gap:8px;align-items:center}
+.t-cat{color:var(--red);font-weight:600}
+
+.latest-list{padding:0}
+.latest-item{
+  display:flex;gap:10px;align-items:flex-start;
+  padding:12px 14px;border-bottom:1px solid var(--border);cursor:pointer;
+}
+.latest-item:last-child{border-bottom:none}
+.latest-item:hover{background:#fafafa}
+.l-img{
+  width:72px;height:52px;border-radius:3px;flex-shrink:0;
+  overflow:hidden;
+}
+.l-img-ph{
+  width:100%;height:100%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:18px;
+}
+.l-info{}
+.l-title{font-size:12.5px;font-weight:600;line-height:1.35;color:var(--dark);margin-bottom:4px}
+.l-time{font-size:11px;color:var(--muted)}
+
+.ad-widget{
+  padding:0;
+}
+.ad-box{
+  background:#f8f8f8;border:1px dashed #ccc;
+  aspect-ratio:300/250;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  color:#bbb;font-size:11px;letter-spacing:1px;gap:6px;
+}
+
+/* ─── RELATED ─── */
+.related-section{
+  background:#fff;border:1px solid var(--border);
+  padding:20px;margin-bottom:24px;
+}
+.section-title{
+  font-family:var(--font-cond);font-size:18px;font-weight:800;
+  letter-spacing:1.5px;text-transform:uppercase;
+  color:var(--dark);margin-bottom:18px;
+  padding-bottom:10px;border-bottom:3px solid var(--red);
+  display:flex;align-items:center;gap:8px;
+}
+.section-title::before{content:'';width:4px;height:20px;background:var(--red);border-radius:2px}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.related-card{cursor:pointer;border:1px solid var(--border);border-radius:2px;overflow:hidden;transition:box-shadow .2s}
+.related-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.1)}
+.rc-img{
+  aspect-ratio:16/9;width:100%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:28px;
+}
+.rc-body{padding:10px}
+.rc-cat{font-size:10px;color:var(--red);font-weight:700;letter-spacing:.5px;text-transform:uppercase;margin-bottom:4px}
+.rc-title{font-size:13px;font-weight:600;line-height:1.35;color:var(--dark);margin-bottom:6px}
+.rc-time{font-size:11px;color:var(--muted)}
+
+/* ─── FOOTER ─── */
+footer{background:#1a1a1a;color:rgba(255,255,255,.7);margin-top:0}
+.footer-top{
+  max-width:1200px;margin:0 auto;padding:36px 16px 24px;
+  display:grid;grid-template-columns:220px 1fr 1fr 1fr;gap:32px;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.footer-brand{}
+.footer-logo{
+  font-family:var(--font-cond);font-size:28px;font-weight:800;
+  color:var(--red);letter-spacing:-0.5px;margin-bottom:8px;
+}
+.footer-logo span{color:#fff}
+.footer-tagline{font-size:12px;color:rgba(255,255,255,.45);line-height:1.5;margin-bottom:16px}
+.footer-social{display:flex;gap:8px;flex-wrap:wrap}
+.fs-btn{
+  width:30px;height:30px;border-radius:5px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:700;color:#fff;
+}
+.footer-col h4{
+  font-family:var(--font-cond);font-size:13px;font-weight:700;
+  letter-spacing:1.5px;text-transform:uppercase;
+  color:rgba(255,255,255,.9);margin-bottom:14px;
+  padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.08);
+}
+.footer-col a{
+  display:block;font-size:12.5px;color:rgba(255,255,255,.55);
+  margin-bottom:9px;transition:color .2s;
+}
+.footer-col a:hover{color:#fff}
+.footer-bottom{
+  max-width:1200px;margin:0 auto;padding:16px;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:11.5px;color:rgba(255,255,255,.3);flex-wrap:wrap;gap:8px;
+}
+
+/* ══════════════════════════════════════
+   CELEBRATION SYSTEM
+══════════════════════════════════════ */
+
+/* Countdown — simple redirect style */
+#cd-overlay{
+  position:fixed;inset:0;z-index:9000;
+  display:none;flex-direction:column;align-items:center;justify-content:center;
+  background:#f4f4f4;
+}
+#cd-overlay.on{display:flex;animation:cdFadeIn .25s ease}
+@keyframes cdFadeIn{from{opacity:0}to{opacity:1}}
+
+.cd-box{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:6px;
+  padding:48px 56px;
+  text-align:center;
+  box-shadow:0 4px 24px rgba(0,0,0,.08);
+  min-width:320px;
+}
+.cd-logo{
+  font-family:var(--font-cond);font-size:22px;font-weight:800;
+  color:var(--red);letter-spacing:-0.5px;margin-bottom:24px;
+}
+.cd-logo span{color:var(--dark)}
+.cd-spinner-wrap{
+  position:relative;
+  width:80px;height:80px;
+  margin:0 auto 24px;
+}
+.cd-circle-bg{fill:none;stroke:#eee;stroke-width:5}
+.cd-circle-prog{
+  fill:none;stroke:var(--red);stroke-width:5;
+  stroke-linecap:round;
+  stroke-dasharray:220;stroke-dashoffset:220;
+  transform:rotate(-90deg);transform-origin:50% 50%;
+  transition:stroke-dashoffset 0.9s linear;
+}
+.cd-num-inside{
+  position:absolute;inset:0;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-cond);font-size:28px;font-weight:800;
+  color:var(--dark);
+}
+.cd-message{font-size:14px;color:var(--mid);margin-bottom:4px;font-weight:500}
+.cd-sub-msg{font-size:12px;color:var(--muted)}
+.cd-bar-wrap{
+  margin-top:20px;height:3px;
+  background:#eee;border-radius:2px;overflow:hidden;
+}
+.cd-bar{
+  height:100%;background:var(--red);border-radius:2px;
+  width:100%;transform-origin:left;
+  transition:transform 0.9s linear;
+}
+
+/* Birthday overlay */
+#bday-overlay{
+  position:fixed;inset:0;z-index:9100;
+  display:none;overflow:hidden;
+  background:#000;
+}
+#bday-overlay.on{display:flex;flex-direction:column;align-items:center;justify-content:center}
+
+/* Single canvas for ALL particle effects */
+#bday-canvas{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  pointer-events:none;z-index:1;
+  will-change:transform;
+}
+
+/* Glow orbs — NO blur filter, use radial-gradient on canvas bg instead */
+.bday-bg{
+  position:absolute;inset:0;z-index:0;
+  background:
+    radial-gradient(ellipse 60% 50% at 20% 20%, rgba(168,85,247,.35) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 80% 75%, rgba(255,105,180,.28) 0%, transparent 65%),
+    radial-gradient(ellipse 40% 35% at 55% 45%, rgba(0,207,255,.18) 0%, transparent 60%),
+    #000;
+}
+
+/* Balloons — simple CSS, NO drop-shadow filter */
+#balloons-wrap{position:absolute;inset:0;z-index:2;pointer-events:none;overflow:hidden}
+.balloon{
+  position:absolute;bottom:-140px;
+  border-radius:50% 50% 50% 50% / 58% 58% 42% 42%;
+  will-change:transform,bottom;
+  animation:balloonRise var(--dur,9s) ease-in var(--del,0s) forwards;
+}
+.balloon::after{
+  content:'';position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);
+  width:1px;height:18px;background:rgba(255,255,255,.25);
+}
+@keyframes balloonRise{
+  0%  {bottom:-140px;opacity:0;transform:translateX(0)}
+  6%  {opacity:1}
+  45% {transform:translateX(var(--sway,22px))}
+  90% {transform:translateX(calc(var(--sway,22px) * -0.3));opacity:1}
+  100%{bottom:108vh;opacity:0;transform:translateX(0)}
+}
+
+/* Main bday content */
+.bday-content{
+  position:relative;z-index:5;
+  text-align:center;padding:20px;
+  display:flex;flex-direction:column;align-items:center;
+  will-change:transform;
+}
+.bday-emoji-row{
+  display:flex;align-items:center;gap:8px;
+  font-size:clamp(1.5rem,4vw,2.5rem);
+  margin-bottom:10px;
+  animation:emojiDance 1.4s ease-in-out infinite alternate;
+  will-change:transform;
+}
+@keyframes emojiDance{from{transform:translateY(0)}to{transform:translateY(-10px)}}
+
+.bday-happy{
+  font-family:var(--font-cond);
+  font-size:clamp(1.8rem,5vw,3.5rem);
+  font-weight:800;letter-spacing:4px;text-transform:uppercase;
+  background:linear-gradient(90deg,#ffd700,#ff9a00,#ff69b4,#a855f7,#00cfff,#ffd700);
+  background-size:300%;
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  animation:textShimmer 3s linear infinite, zoomBounce .8s cubic-bezier(.36,.07,.19,.97) forwards;
+  line-height:1.1;margin-bottom:4px;
+  will-change:background-position,transform;
+}
+.bday-name{
+  font-family:var(--font-cond);
+  font-size:clamp(4rem,14vw,10rem);
+  font-weight:800;letter-spacing:6px;text-transform:uppercase;
+  background:linear-gradient(90deg,#ffd700,#fffacd,#ff69b4,#ffd700);
+  background-size:250%;
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  animation:textShimmer 2.5s linear infinite reverse, zoomBounce .8s cubic-bezier(.36,.07,.19,.97) .15s both;
+  line-height:1;
+  will-change:background-position,transform;
+}
+@keyframes textShimmer{
+  0%{background-position:0%}100%{background-position:250%}
+}
+@keyframes zoomBounce{
+  0%{transform:scale(0) rotate(-4deg);opacity:0}
+  70%{transform:scale(1.06) rotate(1deg)}
+  100%{transform:scale(1) rotate(0deg);opacity:1}
+}
+
+.bday-wish{
+  font-family:var(--font-serif);font-style:italic;
+  font-size:clamp(.85rem,2vw,1.15rem);
+  color:rgba(255,255,255,.8);
+  margin-top:16px;line-height:1.7;max-width:480px;
+  animation:wishFadeUp .9s ease .5s both;
+}
+@keyframes wishFadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+
+.bday-emoji-row2{
+  font-size:clamp(2rem,5vw,3rem);margin-top:12px;
+  display:flex;gap:8px;
+  animation:wishFadeUp .9s ease .7s both;
+}
+.bday-emoji-row2 span{
+  display:inline-block;
+  animation:float3 2.2s ease-in-out infinite;
+  will-change:transform;
+}
+.bday-emoji-row2 span:nth-child(2){animation-delay:.28s}
+.bday-emoji-row2 span:nth-child(3){animation-delay:.56s}
+.bday-emoji-row2 span:nth-child(4){animation-delay:.84s}
+@keyframes float3{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+
+.bday-actions{display:flex;gap:12px;margin-top:28px;animation:wishFadeUp .9s ease .9s both;flex-wrap:wrap;justify-content:center}
+.bday-replay{
+  background:transparent;border:2px solid rgba(255,255,255,.35);
+  color:rgba(255,255,255,.85);padding:10px 24px;
+  font-family:var(--font-cond);font-size:14px;font-weight:700;letter-spacing:2px;
+  text-transform:uppercase;border-radius:3px;
+  transition:border-color .25s,color .25s,background .25s;
+}
+.bday-replay:hover{border-color:#ffd700;color:#ffd700;background:rgba(255,215,0,.08)}
+.bday-close{
+  background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.12);
+  color:rgba(255,255,255,.5);padding:10px 20px;
+  font-family:var(--font-cond);font-size:14px;font-weight:700;letter-spacing:2px;
+  border-radius:3px;transition:all .25s;
+}
+.bday-close:hover{background:rgba(255,255,255,.14);color:#fff}
+
+/* Floating sparkles */
+.sparkle{
+  position:absolute;pointer-events:none;z-index:4;
+  font-size:var(--fs,20px);
+  animation:sparkleSpin var(--d,4s) ease-in-out infinite var(--del,0s);
+  will-change:transform,opacity;
+}
+@keyframes sparkleSpin{
+  0%,100%{transform:translate(0,0) scale(1);opacity:.6}
+  50%{transform:translate(var(--tx,10px),var(--ty,-14px)) scale(1.25);opacity:1}
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE — TABLET (≤ 960px)
+══════════════════════════════════════ */
+
+/* Mobile search toggle button — hidden on desktop */
+.btn-mobile-search{
+  display:none;
+  background:none;border:none;
+  font-size:18px;cursor:pointer;padding:4px 6px;
+  color:var(--mid);
+}
+
+/* Mobile search bar — hidden by default */
+.mobile-search-bar{
+  display:none;
+  padding:8px 12px;
+  border-top:1px solid var(--border);
+  background:#fff;
+}
+.mobile-search-bar input{
+  width:100%;border:1.5px solid var(--border);
+  border-radius:4px 0 0 4px;
+  padding:9px 12px;font-size:14px;font-family:inherit;
+  outline:none;
+}
+.mobile-search-bar button{
+  background:var(--red);color:#fff;border:none;
+  padding:9px 14px;border-radius:0 4px 4px 0;
+  font-size:15px;cursor:pointer;
+}
+.mobile-search-bar.open{display:flex}
+
+/* Sticky bottom nav for mobile */
+.mobile-bottom-nav{
+  display:none;
+  position:fixed;bottom:0;left:0;right:0;
+  z-index:300;
+  background:#fff;
+  border-top:1.5px solid var(--border);
+  box-shadow:0 -2px 12px rgba(0,0,0,.08);
+  padding:0;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.mobile-bottom-nav-inner{
+  display:flex;align-items:stretch;
+}
+.mbn-btn{
+  flex:1;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  padding:8px 4px 6px;gap:3px;
+  font-size:9.5px;font-weight:600;color:var(--muted);
+  background:none;border:none;cursor:pointer;
+  border-right:1px solid var(--border);
+  font-family:inherit;
+  transition:color .2s,background .2s;
+  letter-spacing:.3px;
+  -webkit-tap-highlight-color:transparent;
+}
+.mbn-btn:last-child{border-right:none}
+.mbn-btn:active{background:#fafafa}
+.mbn-btn.active,.mbn-btn:hover{color:var(--red)}
+.mbn-icon{font-size:18px;line-height:1}
+
+/* body padding so content isn't hidden behind sticky nav */
+@media(max-width:600px){
+  body{padding-bottom:58px}
+}
+
+
+@media(max-width:960px){
+  /* header */
+  .header-main{padding:8px 14px;gap:12px}
+  .logo-text{font-size:26px}
+  .header-search{max-width:220px}
+  .btn-app{display:none}
+
+  /* layout */
+  .content-grid{grid-template-columns:1fr;gap:0}
+  .sidebar{display:none}
+
+  /* article */
+  .article-title{font-size:22px}
+  .article-subtitle{font-size:15px}
+  .article-body{font-size:15px}
+  .article-meta-bar{gap:8px}
+  .meta-views{display:none}
+
+  /* share */
+  .sh-count{display:none}
+
+  /* related */
+  .related-grid{grid-template-columns:1fr 1fr}
+  .related-section{padding:16px}
+
+  /* footer */
+  .footer-top{grid-template-columns:1fr 1fr;gap:24px;padding:28px 14px 20px}
+  .footer-brand{grid-column:1/-1}
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE — MOBILE (≤ 600px)
+══════════════════════════════════════ */
+@media(max-width:600px){
+  /* top bar */
+  .top-bar-left a{display:none}
+  .top-bar-date{font-size:10px}
+  .social-icon{width:20px;height:20px;font-size:10px}
+
+  /* header */
+  .header-main{padding:8px 12px;gap:8px}
+  .logo-text{font-size:22px}
+  .logo-badge{font-size:8px;padding:1px 4px}
+  .header-search{display:none}
+  .btn-app{display:none}
+  .btn-login{padding:6px 10px;font-size:11px}
+  .btn-mobile-search{display:flex}
+  .mobile-bottom-nav{display:block}
+
+  /* nav */
+  .nav-inner a{padding:9px 10px;font-size:12px}
+
+  /* breaking bar */
+  .breaking-label{font-size:11px;padding:6px 10px}
+  .ticker-scroll{font-size:12px}
+
+  /* page */
+  .page-container{padding:0 12px}
+  .breadcrumb{font-size:11px;padding:10px 0 0}
+
+  /* article */
+  .article-category-tag{font-size:10px;padding:3px 8px}
+  .article-title{font-size:19px;line-height:1.3}
+  .article-subtitle{font-size:14px;padding-left:10px}
+  .article-meta-bar{flex-wrap:wrap;gap:8px;padding:10px 0}
+  .meta-divider{display:none}
+  .meta-time{font-size:11px}
+  .meta-author .author-name{font-size:12px}
+  .meta-author .author-title{font-size:10px}
+  .author-avatar{width:32px;height:32px;font-size:12px}
+  .meta-views{display:none}
+
+  /* share strip */
+  .share-strip{gap:5px;flex-wrap:wrap}
+  .share-strip-label{display:none}
+  .sh-btn{padding:6px 9px;font-size:11px}
+  .sh-count{display:none}
+
+  /* featured image */
+  .img-credit{font-size:10.5px}
+
+  /* tags */
+  .tag-chips{gap:5px}
+  .tag-chip{font-size:10.5px;padding:3px 8px}
+
+  /* article body */
+  .article-body{font-size:14.5px;line-height:1.8}
+  .article-body .lead-para::first-letter{font-size:48px;margin:4px 8px 0 0}
+  .pull-quote{font-size:15px;padding:14px 16px}
+  .article-body h2{font-size:19px;margin:22px 0 10px}
+  .article-img-wrap img{aspect-ratio:4/3}
+
+  /* show more */
+  .show-more-btn{padding:10px 24px;font-size:13px}
+
+  /* related */
+  .related-grid{grid-template-columns:1fr}
+  .related-section{padding:12px}
+  .section-title{font-size:15px}
+
+  /* footer */
+  .footer-top{grid-template-columns:1fr;gap:20px;padding:24px 12px 16px}
+  .footer-brand{grid-column:1}
+  .footer-logo{font-size:22px}
+  .footer-col h4{font-size:12px}
+  .footer-col a{font-size:12px;margin-bottom:7px}
+  .footer-bottom{flex-direction:column;align-items:flex-start;gap:4px;font-size:10.5px}
+
+  /* countdown box */
+  .cd-box{padding:36px 28px;min-width:0;width:88vw}
+  .cd-logo{font-size:18px;margin-bottom:18px}
+
+  /* birthday text */
+  .bday-happy{font-size:clamp(1.4rem,7vw,2.2rem);letter-spacing:2px}
+  .bday-name{font-size:clamp(3rem,16vw,6rem);letter-spacing:3px}
+  .bday-wish{font-size:13px;margin-top:12px}
+  .bday-emoji-row{font-size:1.4rem;gap:5px}
+  .bday-emoji-row2{font-size:1.8rem;gap:6px}
+  .bday-actions{gap:8px;margin-top:20px}
+  .bday-replay,.bday-close{padding:9px 16px;font-size:12px;letter-spacing:1px}
+  .sparkle{display:none}
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE — SMALL MOBILE (≤ 380px)
+══════════════════════════════════════ */
+@media(max-width:380px){
+  .article-title{font-size:17px}
+  .logo-text{font-size:19px}
+  .bday-name{font-size:clamp(2.6rem,18vw,4rem)}
+  .bday-happy{font-size:clamp(1.2rem,8vw,1.8rem)}
+  .sh-btn{padding:5px 7px;font-size:10px}
+}
+</style>
+</head>
+<body>
+
+<!-- ─── TOP BAR ─── -->
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <div class="top-bar-left">
+      <span class="top-bar-date">Sunday, March 15, 2026</span>
+      <a href="#">E-Paper</a>
+      <a href="#">TV</a>
+      <a href="#">Podcast</a>
+    </div>
+    <div class="top-bar-right">
+      <div class="social-icon si-fb">f</div>
+      <div class="social-icon si-yt">▶</div>
+      <div class="social-icon si-tw">𝕏</div>
+      <div class="social-icon si-ig">📷</div>
+      <div class="social-icon si-tg">✈</div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── HEADER ─── -->
+<header>
+  <div class="header-main">
+    <div class="logo-wrap">
+      <div class="logo-text">
+        <span class="logo-m">media</span><span class="logo-1">1</span><span>news</span>
+      </div>
+      <span class="logo-badge">LIVE</span>
+    </div>
+    <div class="header-search">
+      <input type="text" placeholder="Search news, topics, people..."/>
+      <button>🔍</button>
+    </div>
+    <div class="header-actions">
+      <button class="btn-app">📱 App</button>
+      <button class="btn-login">Login / Register</button>
+      <!-- mobile search toggle -->
+      <button class="btn-mobile-search" onclick="toggleMobileSearch()" aria-label="Search">🔍</button>
+    </div>
+  </div>
+  <!-- mobile search bar (hidden by default) -->
+  <div class="mobile-search-bar" id="mobileSearch">
+    <input type="text" placeholder="Search news, topics..."/>
+    <button>→</button>
+  </div>
+</header>
+
+<!-- ─── NAV ─── -->
+<div class="main-nav">
+  <div class="nav-inner">
+    <a href="#" class="active">🏠 Home</a>
+    <a href="#">Kerala</a>
+    <a href="#">India</a>
+    <a href="#">World</a>
+    <a href="#">Politics</a>
+    <a href="#">Business</a>
+    <a href="#">Sports</a>
+    <a href="#">Entertainment</a>
+    <a href="#">Health</a>
+    <a href="#">Technology</a>
+    <a href="#"><span class="live-badge">LIVE</span> TV</a>
+    <a href="#">Videos</a>
+    <a href="#">Photos</a>
+  </div>
+</div>
+
+<!-- ─── BREAKING TICKER ─── -->
+<div class="breaking-bar">
+  <div class="breaking-label">BREAKING</div>
+  <div class="ticker-wrap">
+    <div class="ticker-scroll" id="ticker">
+      <span>വാഹനാപകടം: ജോയൽ ടെഡി തെക്കേക്കരയ്ക്കെതിരെ കേസ്; ഉടമയ്ക്കും കുരുക്ക്?</span>
+      <span class="ticker-sep">|</span>
+      <span>മോട്ടോർ വാഹന നിയമം കൂടുതൽ കർക്കശമാക്കണമെന്ന് ആവശ്യം ശക്തമാകുന്നു</span>
+      <span class="ticker-sep">|</span>
+      <span>മുവാറ്റുപുഴ: ബൈക്ക് അപകടത്തിൽ പ്രതിക്ക് ചെറിയ പരിക്കുകൾ</span>
+      <span class="ticker-sep">|</span>
+      <span>അപകടം നടന്ന് രണ്ടു മാസത്തിന് ശേഷം പോലീസ് കേസ് രജിസ്റ്റർ ചെയ്തു</span>
+      <span class="ticker-sep">|</span>
+      <span>വണ്ടിയുടമയുടെ നിയമപരമായ ബാധ്യതകൾ ചർച്ചയാകുന്നു</span>
+      <span class="ticker-sep">|</span>
+      <span>വാഹനാപകടം: ജോയൽ ടെഡി തെക്കേക്കരയ്ക്കെതിരെ കേസ്; ഉടമയ്ക്കും കുരുക്ക്?</span>
+      <span class="ticker-sep">|</span>
+      <span>മോട്ടോർ വാഹന നിയമം കൂടുതൽ കർക്കശമാക്കണമെന്ന് ആവശ്യം ശക്തമാകുന്നു</span>
+      <span class="ticker-sep">|</span>
+      <span>മുവാറ്റുപുഴ: ബൈക്ക് അപകടത്തിൽ പ്രതിക്ക് ചെറിയ പരിക്കുകൾ</span>
+      <span class="ticker-sep">|</span>
+      <span>അപകടം നടന്ന് രണ്ടു മാസത്തിന് ശേഷം പോലീസ് കേസ് രജിസ്റ്റർ ചെയ്തു</span>
+      <span class="ticker-sep">|</span>
+      <span>വണ്ടിയുടമയുടെ നിയമപരമായ ബാധ്യതകൾ ചർച്ചയാകുന്നു</span>
+      <span class="ticker-sep">|</span>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PAGE CONTENT ─── -->
+<div class="page-container">
+  <div class="breadcrumb">
+    <a href="#">Home</a><span>›</span>
+    <a href="#">Kerala</a><span>›</span>
+    <a href="#">Crime</a><span>›</span>
+    <span>വാഹനാപകടം: ജോയൽ ടെഡി തെക്കേക്കര</span>
+  </div>
+
+  <div class="content-grid">
+
+    <!-- ─── ARTICLE ─── -->
+    <main>
+      <div class="article-category-tag">
+        <span class="tag-icon">⚡</span> Kerala · Crime
+      </div>
+
+      <h1 class="article-title">
+        വാഹനാപകടം: ജോയൽ ടെഡി തെക്കേക്കരയ്ക്കെതിരെ കേസ്; ഉടമയ്ക്കും കുരുക്ക്?
+      </h1>
+
+      <p class="article-subtitle">
+        മുവാറ്റുപുഴ വാഴക്കുളം സ്വദേശി ജോയൽ ടെഡി തെക്കേക്കര സുഹൃത്തിന്റെ ബൈക്ക് ഓടിച്ച് അപകടത്തിൽപ്പെട്ട സംഭവത്തിൽ, ഇപ്പോൾ കേസ് രജിസ്റ്റർ ചെയ്തിരിക്കുന്നു. വണ്ടിയുടമയ്ക്കും നിയമപരമായ ബാധ്യത നേരിടേണ്ടി വരുമോ എന്ന ചർച്ച ഇപ്പോൾ സജീവം.
+      </p>
+
+      <div class="article-meta-bar">
+        <div class="meta-author">
+          <div class="author-avatar">M</div>
+          <div>
+            <div class="author-name">MediaOne Reporter</div>
+            <div class="author-title">Crime Correspondent · Ernakulam</div>
+          </div>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-time">
+          <strong>Published: March 15, 2026</strong>
+          <span>9:30 AM IST · Updated 11:00 AM</span>
+        </div>
+        <div class="meta-views">👁 62,418 views</div>
+      </div>
+
+      <div class="share-strip">
+        <span class="share-strip-label">Share:</span>
+        <button class="sh-btn fb">f Facebook</button>
+        <button class="sh-btn wa">● WhatsApp</button>
+        <button class="sh-btn tw">𝕏 Twitter</button>
+        <button class="sh-btn copy">🔗 Copy</button>
+        <div class="sh-count">💬 1,204 comments</div>
+      </div>
+
+      <!-- Featured Image -->
+      <div class="featured-img-wrap">
+        <img
+          src="https://i.ytimg.com/vi/Y1Z2mFJvK0M/maxresdefault.jpg"
+          alt="Royal Enfield ബൈക്ക് അപകടം — പ്രതീകാത്മക ചിത്രം"
+          style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;"
+          onerror="this.style.display='none';document.getElementById('fimg-fallback').style.display='flex';"
+        />
+        <div id="fimg-fallback" style="display:none;width:100%;aspect-ratio:16/9;background:linear-gradient(160deg,#1c2a40,#2d3f5c);align-items:center;justify-content:center;flex-direction:column;gap:10px;">
+          <span style="font-size:48px">🏍️</span>
+          <span style="color:rgba(255,255,255,.6);font-size:13px">വാഹനാപകടം · മുവാറ്റുപുഴ</span>
+        </div>
+      </div>
+      <div class="img-credit">പ്രതീകാത്മക ചിത്രം: Royal Enfield ബൈക്ക് അപകടം · MediaOne Archive</div>
+
+      <div class="tag-chips">
+        <span class="tag-chip">#വാഹനാപകടം</span>
+        <span class="tag-chip">#ജോയൽടെഡി</span>
+        <span class="tag-chip">#മുവാറ്റുപുഴ</span>
+        <span class="tag-chip">#MV Act</span>
+        <span class="tag-chip">#Kerala Crime</span>
+        <span class="tag-chip">#Road Safety</span>
+      </div>
+
+      <div class="article-body">
+        <p class="lead-para">
+          കേരളത്തിൽ വർദ്ധിച്ചുവരുന്ന വാഹനാപകടങ്ങളുടെ ഞെട്ടിപ്പിക്കുന്ന കണക്കുകൾക്കിടെ, സമാനമായ മറ്റൊരു സംഭവം കൂടി ശ്രദ്ധയാകർഷിക്കുന്നു. 2026 ജനുവരിയിൽ, <span class="article-highlight">മുവാറ്റുപുഴ വാഴക്കുളം സ്വദേശി ജോയൽ ടെഡി തെക്കേക്കര</span> സുഹൃത്തിന്റെ ബൈക്ക്‌ ഓടിച്ച് അപകടത്തിൽപ്പെട്ട സംഭവത്തിൽ, ഇപ്പോൾ കേസെടുത്തിരിക്കുകയാണ്.
+        </p>
+
+        <!-- Inline image 1 — Red Enfield bike -->
+        <div class="article-img-wrap">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Royal_Enfield_Bullet_500_red.jpg/1280px-Royal_Enfield_Bullet_500_red.jpg"
+            alt="ചുവന്ന Royal Enfield ബൈക്ക് — പ്രതീകാത്മക ചിത്രം"
+            onerror="this.parentElement.style.display='none'"
+          />
+          <div class="article-img-caption">ചുവന്ന Royal Enfield ബൈക്ക് — സമാന മോഡൽ (പ്രതീകാത്മക ചിത്രം)</div>
+        </div>
+
+        <p>
+          അപകടത്തിൽ ബൈക്കിന് കേടുപാടുകൾ സംഭവിക്കുകയും, ജോയലിന് ചെറിയ പരിക്കുകൾ ഏൽക്കുകയും ചെയ്തിരുന്നു. അപകടം നടന്ന് രണ്ടു മാസത്തിന് ശേഷമാണ് പോലീസ് കേസ് രജിസ്റ്റർ ചെയ്തിരിക്കുന്നത്.
+        </p>
+
+        <div class="pull-quote">
+          മറ്റൊരാളുടെ വണ്ടി ഉപയോഗിച്ച് അപകടമുണ്ടായ സാഹചര്യത്തിൽ, വണ്ടി ഓടിച്ചയാൾ മാത്രമല്ല, വണ്ടിയുടമയും നിയമപരമായ ചില ബാധ്യതകൾ നേരിടേണ്ടി വരുമോ എന്നതാണ് ഇപ്പോൾ സജീവ ചർച്ചയാകുന്നത്.
+          <br/><small style="font-size:12px;color:#999;display:block;margin-top:8px">— MediaOne Legal Desk</small>
+        </div>
+
+        <h2>മോട്ടോർ വാഹന നിയമം: ഉടമയ്ക്കുള്ള ബാധ്യത</h2>
+
+        <!-- Inline image 2 — accident scene -->
+        <div class="article-img-wrap">
+          <img
+            src="https://i.ytimg.com/vi/R2_g-dC2v7Q/maxresdefault.jpg"
+            alt="ബൈക്ക് അപകട രംഗം — പ്രതീകാത്മക ചിത്രം"
+            onerror="this.parentElement.style.display='none'"
+          />
+          <div class="article-img-caption">ബൈക്ക് അപകട ദൃശ്യം — പ്രതീകാത്മക ചിത്രം (ഫയൽ ഫോട്ടോ)</div>
+        </div>
+
+        <p>
+          ഈ സംഭവം സജീവ ചർച്ചയാകുന്നതോടൊപ്പം, കർശനമായ നിയമനടപടികളുടെ ആവശ്യകതയിലേക്കും ചൂണ്ടിപ്പറയുന്നു. ഇത്തരം അപകടങ്ങളിൽ, വണ്ടിയുടമയുടെ പങ്കാളിത്തം നിയമപരമായി പരിശോധിക്കപ്പെടാറുണ്ടെന്ന് നിയമവിദഗ്ദ്ധർ ചൂണ്ടിക്കാട്ടുന്നു.
+        </p>
+        <p>
+          മോട്ടോർ വാഹന നിയമങ്ങൾ കൂടുതൽ കർക്കശമാകുന്നതോടെ, ഇത്തരം സംഭവങ്ങളിൽ കുറ്റക്കാർക്കെതിരെ കടുത്ത ശിക്ഷാനടപടികൾ ഉണ്ടാകുമെന്നാണ് പ്രതീക്ഷ. ഇത് സംബന്ധിച്ചുള്ള മോട്ടോർ വാഹന നിയമങ്ങൾ കൂടുതൽ കർക്കശമാക്കണമെന്ന ആവശ്യവും ശക്തമാവുകയാണ്.
+        </p>
+      </div>
+
+      <!-- ─── SHOW MORE BUTTON ─── -->
+      <div class="show-more-section">
+        <button class="show-more-btn" id="showMoreBtn" onclick="handleShowMore()">
+          <span>Show More</span>
+          <span class="btn-arrow">▼</span>
+        </button>
+      </div>
+
+      <!-- ─── EXTRA CONTENT (hidden, never shown — celebration always fires) ─── -->
+      <div id="extra-content"></div>
+    </main>
+
+    <!-- ─── SIDEBAR ─── -->
+    <aside class="sidebar">
+
+      <div class="widget">
+        <div class="widget-head">Trending Today</div>
+        <div class="trending-list">
+          <div class="trending-item">
+            <div class="t-num">01</div>
+            <div class="t-info">
+              <div class="t-title">കേരളത്തിൽ ദിവസേന 12 പേർ വാഹനാപകടത്തിൽ മരിക്കുന്നു — പോലീസ് റിപ്പോർട്ട്</div>
+              <div class="t-meta"><span class="t-cat">Kerala</span><span>1h ago</span></div>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div class="t-num">02</div>
+            <div class="t-info">
+              <div class="t-title">മോട്ടോർ വാഹന നിയമഭേദഗതി: ഉടമകൾക്ക് കടുത്ത ശിക്ഷ വരുന്നു</div>
+              <div class="t-meta"><span class="t-cat">Law</span><span>2h ago</span></div>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div class="t-num">03</div>
+            <div class="t-info">
+              <div class="t-title">മുവാറ്റുപുഴ ഹൈവേയിൽ വീണ്ടും അപകടം; രണ്ടുപേർക്ക് പരിക്ക്</div>
+              <div class="t-meta"><span class="t-cat">Crime</span><span>4h ago</span></div>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div class="t-num">04</div>
+            <div class="t-info">
+              <div class="t-title">ഹെൽമറ്റ് നിർബന്ധമാക്കൽ: 90% ബൈക്ക് യാത്രക്കാരും അനുസരിക്കുന്നില്ല</div>
+              <div class="t-meta"><span class="t-cat">Road Safety</span><span>5h ago</span></div>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div class="t-num">05</div>
+            <div class="t-info">
+              <div class="t-title">ലൈസൻസ് ഇല്ലാതെ വാഹനം ഓടിക്കുന്നവർക്കെതിരെ ഡ്രൈവ്; 340 കേസ്</div>
+              <div class="t-meta"><span class="t-cat">Kerala</span><span>7h ago</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="widget">
+        <div class="widget-head">Latest Videos</div>
+        <div class="latest-list">
+          <div class="latest-item">
+            <div class="l-img">
+              <img src="https://i.ytimg.com/vi/Y1Z2mFJvK0M/mqdefault.jpg" alt="video thumb" style="width:100%;height:100%;object-fit:cover;border-radius:3px" onerror="this.parentElement.innerHTML='▶️'"/>
+            </div>
+            <div class="l-info">
+              <div class="l-title">ജോയൽ ടെഡി കേസ്: പോലീസ് വിശദീകരണം — LIVE</div>
+              <div class="l-time">30 minutes ago</div>
+            </div>
+          </div>
+          <div class="latest-item">
+            <div class="l-img">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Royal_Enfield_Bullet_500_red.jpg/320px-Royal_Enfield_Bullet_500_red.jpg" alt="video thumb" style="width:100%;height:100%;object-fit:cover;border-radius:3px" onerror="this.parentElement.innerHTML='▶️'"/>
+            </div>
+            <div class="l-info">
+              <div class="l-title">വണ്ടിയുടമയ്ക്ക് ശിക്ഷ ഉണ്ടാകുമോ? നിയമ വിദഗ്ദ്ധൻ പ്രതികരിക്കുന്നു</div>
+              <div class="l-time">2 hours ago</div>
+            </div>
+          </div>
+          <div class="latest-item">
+            <div class="l-img">
+              <img src="https://i.ytimg.com/vi/R2_g-dC2v7Q/mqdefault.jpg" alt="video thumb" style="width:100%;height:100%;object-fit:cover;border-radius:3px" onerror="this.parentElement.innerHTML='▶️'"/>
+            </div>
+            <div class="l-info">
+              <div class="l-title">കേരളത്തിലെ റോഡ് സുരക്ഷ: ഞെട്ടിക്കുന്ന കണക്കുകൾ</div>
+              <div class="l-time">5 hours ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="widget ad-widget">
+        <div class="ad-box">
+          <span style="font-size:22px">📢</span>
+          <span>ADVERTISEMENT</span>
+          <span style="font-size:10px">300 × 250</span>
+        </div>
+      </div>
+
+      <div class="widget">
+        <div class="widget-head">Must Read</div>
+        <div class="latest-list">
+          <div class="latest-item">
+            <div class="l-img"><div class="l-img-ph" style="background:#200a0a">⚖️</div></div>
+            <div class="l-info">
+              <div class="l-title">മോട്ടോർ വാഹന നിയമം: ഉടമ, ഡ്രൈവർ — ആർക്കാണ് ഉത്തരവാദിത്തം?</div>
+              <div class="l-time">Analysis · March 14</div>
+            </div>
+          </div>
+          <div class="latest-item">
+            <div class="l-img"><div class="l-img-ph" style="background:#0a1520">🏍️</div></div>
+            <div class="l-info">
+              <div class="l-title">സുഹൃത്തിന്റെ ബൈക്ക് ഓടിക്കുമ്പോൾ: ഇൻഷുറൻസ് ക്ലെയിം ലഭിക്കുമോ?</div>
+              <div class="l-time">In-Depth · March 12</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </aside>
+  </div><!-- /content-grid -->
+
+  <!-- ─── RELATED NEWS ─── -->
+  <div class="related-section">
+    <div class="section-title">Related Stories</div>
+    <div class="related-grid">
+      <div class="related-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Royal_Enfield_Bullet_500_red.jpg/640px-Royal_Enfield_Bullet_500_red.jpg" alt="related" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;" onerror="this.style.background='#1c2a3c';this.alt='🏍️'"/>
+        <div class="rc-body">
+          <div class="rc-cat">Kerala · Crime</div>
+          <div class="rc-title">വാഴക്കുളം: ബൈക്ക് അപകടത്തിൽ യുവാവിന് ഗുരുതര പരിക്ക്; ഡ്രൈവർ ഫരാർ</div>
+          <div class="rc-time">2 hours ago</div>
+        </div>
+      </div>
+      <div class="related-card">
+        <img src="https://i.ytimg.com/vi/R2_g-dC2v7Q/hqdefault.jpg" alt="related" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;" onerror="this.style.background='#1e0a0a';this.alt='⚖️'"/>
+        <div class="rc-body">
+          <div class="rc-cat">Law</div>
+          <div class="rc-title">മറ്റൊരാളുടെ വണ്ടി ഉപയോഗിച്ച് അപകടം: ഉടമ ഉത്തരവാദി — ഹൈക്കോടതി</div>
+          <div class="rc-time">4 hours ago</div>
+        </div>
+      </div>
+      <div class="related-card">
+        <img src="https://i.ytimg.com/vi/Y1Z2mFJvK0M/hqdefault.jpg" alt="related" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;" onerror="this.style.background='#0a200a';this.alt='🚦'"/>
+        <div class="rc-body">
+          <div class="rc-cat">Road Safety</div>
+          <div class="rc-title">2026-ൽ ഇതുവരെ 1,240 പേർ കേരളത്തിൽ റോഡ് അപകടത്തിൽ മരിച്ചു</div>
+          <div class="rc-time">Yesterday</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /page-container -->
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">media<span>1</span>news</div>
+      <p class="footer-tagline">Kerala's most trusted source for news, analysis, and live updates since 1992.</p>
+      <div class="footer-social">
+        <div class="fs-btn si-fb">f</div>
+        <div class="fs-btn si-yt">▶</div>
+        <div class="fs-btn si-tw">𝕏</div>
+        <div class="fs-btn si-ig">📷</div>
+        <div class="fs-btn si-tg">✈</div>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Sections</h4>
+      <a href="#">Kerala</a><a href="#">India</a><a href="#">World</a>
+      <a href="#">Politics</a><a href="#">Business</a><a href="#">Sports</a><a href="#">Entertainment</a>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#">E-Paper</a><a href="#">Live TV</a><a href="#">Podcasts</a>
+      <a href="#">Newsletter</a><a href="#">Archives</a><a href="#">Classifieds</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About Us</a><a href="#">Editorial Policy</a>
+      <a href="#">Careers</a><a href="#">Advertise</a>
+      <a href="#">Contact</a><a href="#">Privacy Policy</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Media1News · Manorama Online Group. All rights reserved.</span>
+    <span>Terms of Use · Cookie Policy · Sitemap</span>
+  </div>
+</footer>
+
+
+<!-- ══════════════════════════════════
+     COUNTDOWN OVERLAY
+══════════════════════════════════ -->
+<div id="cd-overlay">
+  <div class="cd-box">
+    <div class="cd-logo">media<span>1</span>news</div>
+
+    <div class="cd-spinner-wrap">
+      <svg width="80" height="80" viewBox="0 0 80 80">
+        <circle class="cd-circle-bg" cx="40" cy="40" r="35"/>
+        <circle class="cd-circle-prog" id="cd-prog" cx="40" cy="40" r="35"/>
+      </svg>
+      <div class="cd-num-inside" id="cd-num">5</div>
+    </div>
+
+    <div class="cd-message" id="cd-message">Please wait, redirecting…</div>
+    <div class="cd-sub-msg" id="cd-sub">Opening in <strong id="cd-sec">5</strong> seconds</div>
+
+    <div class="cd-bar-wrap">
+      <div class="cd-bar" id="cd-bar"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════
+     BIRTHDAY OVERLAY
+══════════════════════════════════ -->
+<div id="bday-overlay">
+  <div class="bday-bg"></div>
+
+  <!-- Single canvas handles: stars, confetti, fireworks -->
+  <canvas id="bday-canvas"></canvas>
+
+  <!-- Balloons (CSS only, minimal DOM) -->
+  <div id="balloons-wrap"></div>
+
+  <!-- Sparkles -->
+  <div class="sparkle" style="--fs:22px;top:18%;left:10%;--d:3.2s;--tx:12px;--ty:-18px;--del:0s">✨</div>
+  <div class="sparkle" style="--fs:18px;top:12%;right:13%;--d:4.1s;--tx:-9px;--ty:-13px;--del:.4s">🌟</div>
+  <div class="sparkle" style="--fs:26px;bottom:24%;left:7%;--d:3.7s;--tx:18px;--ty:8px;--del:.9s">💫</div>
+  <div class="sparkle" style="--fs:20px;bottom:18%;right:9%;--d:4.4s;--tx:-13px;--ty:10px;--del:.2s">⭐</div>
+
+  <!-- Main content -->
+  <div class="bday-content">
+    <div class="bday-emoji-row">🎉 🎊 🎈 🎂 🎊 🎉</div>
+    <div class="bday-happy">Happy Birthday</div>
+    <div class="bday-name">Aryasree</div>
+    <p class="bday-wish">
+      May your day be filled with laughter, love, and all the magic<br/>
+      that makes you the wonderful person you are. 🌺
+    </p>
+    <div class="bday-emoji-row2">
+      <span>🎁</span><span>🌸</span><span>💝</span><span>🎆</span>
+    </div>
+    <div class="bday-actions">
+      <button class="bday-replay" onclick="replayCelebration()">↻ Replay Surprise</button>
+      <button class="bday-close" onclick="closeCelebration()">✕ Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── MOBILE BOTTOM NAV ─── -->
+<nav class="mobile-bottom-nav">
+  <div class="mobile-bottom-nav-inner">
+    <button class="mbn-btn active">
+      <span class="mbn-icon">🏠</span>Home
+    </button>
+    <button class="mbn-btn">
+      <span class="mbn-icon">🔍</span>Search
+    </button>
+    <button class="mbn-btn">
+      <span class="mbn-icon">📺</span>Live TV
+    </button>
+    <button class="mbn-btn">
+      <span class="mbn-icon">🎙️</span>Podcast
+    </button>
+    <button class="mbn-btn">
+      <span class="mbn-icon">👤</span>Login
+    </button>
+  </div>
+</nav>
+
+<!-- Background music from MP3 file -->
+<audio id="bg-audio" src="birthday-bg.mp3" preload="auto" loop></audio>
+
+<script>
+/* ═══ MOBILE UI ═══ */
+function toggleMobileSearch() {
+  const bar = document.getElementById('mobileSearch');
+  bar.classList.toggle('open');
+  if (bar.classList.contains('open')) bar.querySelector('input').focus();
+}
+document.querySelectorAll('.mbn-btn').forEach((btn, i) => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.mbn-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (i === 1) toggleMobileSearch();
+  });
+});
+
+/* ═══════════════════════════════════════════
+   WEB AUDIO — Birthday music generator
+   No external files, no CORS, works everywhere
+═══════════════════════════════════════════ */
+let audioCtx = null;
+let musicNodes = [];
+let musicGain = null;
+let musicPlaying = false;
+
+function getAudioCtx() {
+  if (!audioCtx) {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  // Resume if suspended (mobile Safari)
+  if (audioCtx.state === 'suspended') audioCtx.resume();
+  return audioCtx;
+}
+
+/* Happy Birthday melody — notes as [frequency, duration_beats] */
+const MELODY = [
+  // "Happy Birthday to You" — public domain
+  [264,0.75],[264,0.25],[297,1],[264,1],[352,1],[330,2],
+  [264,0.75],[264,0.25],[297,1],[264,1],[396,1],[352,2],
+  [264,0.75],[264,0.25],[528,1],[440,1],[352,1],[330,1],[297,2],
+  [470,0.75],[470,0.25],[440,1],[352,1],[396,1],[352,2]
+];
+
+const CHORDS = [
+  [264,330,396],[264,330,396],[297,374,440],[264,330,396],
+  [264,330,396],[264,330,396],[297,374,440],[264,330,396],
+  [264,330,396],[264,330,396],[297,374,440],[264,330,396],
+  [264,330,396],[264,330,396],[297,374,440],[264,330,396],
+];
+
+function playBirthdayMusic() {
+  if (musicPlaying) return;
+  musicPlaying = true;
+
+  const ctx = getAudioCtx();
+  const masterGain = ctx.createGain();
+  masterGain.gain.setValueAtTime(0, ctx.currentTime);
+  masterGain.gain.linearRampToValueAtTime(0.55, ctx.currentTime + 1.2);
+  masterGain.connect(ctx.destination);
+  musicGain = masterGain;
+  musicNodes = [masterGain];
+
+  const BPM = 108;
+  const beat = 60 / BPM;
+  let t = ctx.currentTime + 0.05;
+
+  function scheduleLoop() {
+    let noteTime = t;
+    MELODY.forEach(([freq, beats], i) => {
+      // Lead melody
+      const osc = ctx.createOscillator();
+      const env = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(freq, noteTime);
+      env.gain.setValueAtTime(0, noteTime);
+      env.gain.linearRampToValueAtTime(0.5, noteTime + 0.03);
+      env.gain.setValueAtTime(0.5, noteTime + beats * beat - 0.05);
+      env.gain.linearRampToValueAtTime(0, noteTime + beats * beat);
+      osc.connect(env);
+      env.connect(masterGain);
+      osc.start(noteTime);
+      osc.stop(noteTime + beats * beat + 0.05);
+      musicNodes.push(osc, env);
+
+      // Harmony (one octave up, softer)
+      const osc2 = ctx.createOscillator();
+      const env2 = ctx.createGain();
+      osc2.type = 'triangle';
+      osc2.frequency.setValueAtTime(freq * 1.5, noteTime);
+      env2.gain.setValueAtTime(0, noteTime);
+      env2.gain.linearRampToValueAtTime(0.18, noteTime + 0.04);
+      env2.gain.linearRampToValueAtTime(0, noteTime + beats * beat);
+      osc2.connect(env2);
+      env2.connect(masterGain);
+      osc2.start(noteTime);
+      osc2.stop(noteTime + beats * beat + 0.05);
+      musicNodes.push(osc2, env2);
+
+      noteTime += beats * beat;
+    });
+
+    // Loop after melody ends (add small gap)
+    const loopDelay = (noteTime - ctx.currentTime + 0.6) * 1000;
+    if (musicPlaying) {
+      setTimeout(() => {
+        if (!musicPlaying) return;
+        t = ctx.currentTime + 0.05;
+        scheduleLoop();
+      }, loopDelay);
+    }
+  }
+
+  scheduleLoop();
+}
+
+function fadeAudioIn(dur) {
+  if (!musicGain) return;
+  const ctx = getAudioCtx();
+  musicGain.gain.setValueAtTime(0, ctx.currentTime);
+  musicGain.gain.linearRampToValueAtTime(0.55, ctx.currentTime + dur);
+}
+
+/* ═══ SHOW MORE HANDLER ═══ */
+function handleShowMore() {
+  // Unlock / warm-up Web Audio context on user gesture
+  getAudioCtx();
+  startCountdown();
+}
+
+/* ═══ COUNTDOWN ═══ */
+function startCountdown() {
+  const overlay = document.getElementById('cd-overlay');
+  const numEl   = document.getElementById('cd-num');
+  const secEl   = document.getElementById('cd-sec');
+  const prog    = document.getElementById('cd-prog');
+  const bar     = document.getElementById('cd-bar');
+  const msgEl   = document.getElementById('cd-message');
+  const TOTAL   = 5, CIRCUM = 220;
+
+  overlay.classList.add('on');
+  let n = TOTAL;
+  prog.style.strokeDashoffset = CIRCUM;
+  bar.style.transform = 'scaleX(1)';
+
+  requestAnimationFrame(() => {
+    prog.style.strokeDashoffset = CIRCUM - (CIRCUM / TOTAL);
+    bar.style.transform = `scaleX(${(TOTAL - 1) / TOTAL})`;
+  });
+
+  const tick = setInterval(() => {
+    n--;
+    if (n <= 0) {
+      clearInterval(tick);
+      prog.style.strokeDashoffset = CIRCUM;
+      bar.style.transform = 'scaleX(0)';
+      // 🎵 Start music exactly when countdown hits 0
+      playBirthdayMusic();
+      setTimeout(() => {
+        overlay.classList.remove('on');
+        setTimeout(startBirthday, 200);
+      }, 400);
+      return;
+    }
+    numEl.textContent = n;
+    secEl.textContent = n;
+    prog.style.strokeDashoffset = CIRCUM - (CIRCUM / TOTAL) * (TOTAL - n);
+    bar.style.transform = `scaleX(${n / TOTAL})`;
+    if (n === 2) msgEl.textContent = 'Almost there…';
+    if (n === 1) { secEl.textContent = '1'; msgEl.textContent = 'Get ready! 🎉'; }
+  }, 1000);
+}
+
+
+
+
+/* ═══ BIRTHDAY SCENE ═══ */
+function startBirthday() {
+  const overlay = document.getElementById('bday-overlay');
+  overlay.classList.add('on');
+  launchBalloons();
+  initCanvas();
+}
+
+function stopMusic() {
+  musicPlaying = false;
+  if (!musicGain) return;
+  const ctx = getAudioCtx();
+  try {
+    musicGain.gain.setValueAtTime(musicGain.gain.value, ctx.currentTime);
+    musicGain.gain.linearRampToValueAtTime(0, ctx.currentTime + 1.0);
+    setTimeout(() => {
+      musicNodes.forEach(n => { try { n.disconnect(); } catch(e){} });
+      musicNodes = [];
+      musicGain = null;
+    }, 1200);
+  } catch(e) {}
+}
+
+/* ─── UNIFIED CANVAS ENGINE ─── */
+let animId, canvasActive = false;
+
+function initCanvas() {
+  const canvas = document.getElementById('bday-canvas');
+  canvas.width  = window.innerWidth;
+  canvas.height = window.innerHeight;
+  const ctx = canvas.getContext('2d');
+
+  window.addEventListener('resize', () => {
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+  });
+
+  const W = () => canvas.width, H = () => canvas.height;
+
+  /* ── palette ── */
+  const COLS = ['#ffd700','#ff69b4','#a855f7','#00cfff','#ff6b6b','#6bcb77','#fff','#f97316'];
+
+  /* ── stars pool (drawn on canvas, zero DOM) ── */
+  const STAR_COUNT = 90;
+  const stars = Array.from({length: STAR_COUNT}, () => ({
+    x: Math.random(),   // 0-1 normalized
+    y: Math.random(),
+    r: 0.4 + Math.random() * 1.6,
+    phase: Math.random() * Math.PI * 2,
+    speed: 0.4 + Math.random() * 1.2,
+  }));
+
+  /* ── confetti pool (object pool, no DOM) ── */
+  const CONF_MAX = 220;
+  const confetti = [];
+  for (let i = 0; i < CONF_MAX; i++) {
+    confetti.push(makeConf(true));
+  }
+  function makeConf(init) {
+    return {
+      x:   Math.random() * 1,    // normalized
+      y:   init ? Math.random() : -0.05,
+      vy:  0.003 + Math.random() * 0.005,
+      vx:  (Math.random() - 0.5) * 0.003,
+      rot: Math.random() * Math.PI * 2,
+      rotV: (Math.random() - 0.5) * 0.12,
+      w:   6 + Math.random() * 8,
+      h:   init ? 3 + Math.random() * 6 : 4 + Math.random() * 7,
+      col: COLS[Math.floor(Math.random() * COLS.length)],
+      rect: Math.random() > 0.4,
+      alpha: 1,
+    };
+  }
+
+  /* ── firework particles (object pool) ── */
+  const FW_MAX = 600;
+  const fwPool = Array.from({length: FW_MAX}, () => ({alive: false}));
+  let fwHead = 0;
+
+  function spawnFW(x, y) {
+    const col  = COLS[Math.floor(Math.random() * COLS.length)];
+    const col2 = COLS[Math.floor(Math.random() * COLS.length)];
+    const cnt  = 55 + Math.floor(Math.random() * 35);
+    for (let i = 0; i < cnt; i++) {
+      const p = fwPool[fwHead % FW_MAX];
+      fwHead++;
+      const ang   = (Math.PI * 2 / cnt) * i + (Math.random() - 0.5) * 0.3;
+      const spd   = 1.2 + Math.random() * 5.5;
+      p.alive = true;
+      p.x  = x; p.y = y;
+      p.vx = Math.cos(ang) * spd;
+      p.vy = Math.sin(ang) * spd;
+      p.alpha = 1;
+      p.decay = 0.014 + Math.random() * 0.014;
+      p.size  = 1.2 + Math.random() * 2.5;
+      p.col   = Math.random() > 0.5 ? col : col2;
+      p.grav  = 0.07;
+    }
+  }
+
+  /* ── firework scheduler ── */
+  let lastFW = 0;
+  function nextFWDelay() { return 350 + Math.random() * 900; }
+  let nextFW = nextFWDelay();
+
+  /* initial burst */
+  for (let i = 0; i < 7; i++) {
+    setTimeout(() => {
+      if (!canvasActive) return;
+      spawnFW(
+        80 + Math.random() * (W() - 160),
+        60 + Math.random() * (H() * 0.5)
+      );
+    }, i * 180);
+  }
+
+  /* ── MAIN LOOP ── */
+  canvasActive = true;
+  let last = performance.now();
+
+  function loop(now) {
+    if (!canvasActive) return;
+    const dt = Math.min(now - last, 50); // cap at 50ms (handles tab-switch)
+    last = now;
+    const scale = dt / 16.67; // normalise to 60fps
+
+    ctx.clearRect(0, 0, W(), H());
+    const cw = W(), ch = H();
+
+    /* -- stars -- */
+    const t = now * 0.001;
+    for (const s of stars) {
+      const alpha = 0.15 + 0.85 * (0.5 + 0.5 * Math.sin(s.phase + t * s.speed));
+      ctx.globalAlpha = alpha;
+      ctx.fillStyle = '#fff';
+      ctx.beginPath();
+      ctx.arc(s.x * cw, s.y * ch, s.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    /* -- confetti -- */
+    ctx.globalAlpha = 1;
+    for (const c of confetti) {
+      c.x   += c.vx * scale;
+      c.y   += c.vy * scale;
+      c.rot += c.rotV * scale;
+      // wrap around top
+      if (c.y > 1.08) { Object.assign(c, makeConf(false)); }
+
+      const px = c.x * cw, py = c.y * ch;
+      ctx.save();
+      ctx.translate(px, py);
+      ctx.rotate(c.rot);
+      ctx.fillStyle = c.col;
+      ctx.globalAlpha = c.alpha;
+      if (c.rect) {
+        ctx.fillRect(-c.w / 2, -c.h / 2, c.w, c.h);
+      } else {
+        ctx.beginPath();
+        ctx.ellipse(0, 0, c.w / 2, c.h / 3, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.restore();
+    }
+
+    /* -- fireworks -- */
+    ctx.globalAlpha = 1;
+    for (const p of fwPool) {
+      if (!p.alive) continue;
+      p.vx *= 0.97; p.vy *= 0.97;
+      p.vy += p.grav * scale;
+      p.x  += p.vx * scale;
+      p.y  += p.vy * scale;
+      p.alpha -= p.decay * scale;
+      if (p.alpha <= 0) { p.alive = false; continue; }
+      ctx.globalAlpha = p.alpha;
+      ctx.fillStyle = p.col;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+
+    /* -- schedule fireworks -- */
+    lastFW += dt;
+    if (lastFW >= nextFW) {
+      lastFW = 0;
+      nextFW = nextFWDelay();
+      spawnFW(
+        80 + Math.random() * (cw - 160),
+        60 + Math.random() * (ch * 0.52)
+      );
+    }
+
+    animId = requestAnimationFrame(loop);
+  }
+
+  animId = requestAnimationFrame(loop);
+}
+
+/* ─── BALLOONS (CSS, minimal DOM) ─── */
+const BCOLORS = ['#ff6b6b','#ffd93d','#6bcb77','#4d96ff','#ff69b4','#a855f7','#f97316','#06b6d4'];
+let balloonTimer;
+function launchBalloons() {
+  const wrap = document.getElementById('balloons-wrap');
+  wrap.innerHTML = '';
+  for (let i = 0; i < 10; i++) spawnBalloon(wrap, i * 800);
+  balloonTimer = setInterval(() => spawnBalloon(wrap, 0), 1800);
+}
+function spawnBalloon(wrap, delay) {
+  setTimeout(() => {
+    const b   = document.createElement('div');
+    b.className = 'balloon';
+    const col = BCOLORS[Math.floor(Math.random() * BCOLORS.length)];
+    const w   = 44 + Math.random() * 28;
+    b.style.cssText = `
+      left:${4 + Math.random() * 92}%;
+      width:${w}px;height:${w * 1.22}px;
+      background:radial-gradient(circle at 35% 30%, rgba(255,255,255,.35), transparent 55%), ${col};
+      --dur:${8 + Math.random() * 5}s;
+      --del:0s;
+      --sway:${(Math.random() - 0.5) * 44}px;
+      box-shadow:inset -5px -5px 12px rgba(0,0,0,.18);
+    `;
+    wrap.appendChild(b);
+    const life = (8 + Math.random() * 5 + 0.5) * 1000;
+    setTimeout(() => b.remove(), life);
+  }, delay);
+}
+
+/* ─── REPLAY / CLOSE ─── */
+function replayCelebration() {
+  clearInterval(balloonTimer);
+  launchBalloons();
+  stopMusic();
+  setTimeout(() => playBirthdayMusic(), 300);
+}
+
+function closeCelebration() {
+  const overlay = document.getElementById('bday-overlay');
+  overlay.style.opacity = '0';
+  overlay.style.transition = 'opacity .4s ease';
+  setTimeout(() => {
+    canvasActive = false;
+    cancelAnimationFrame(animId);
+    clearInterval(balloonTimer);
+    overlay.classList.remove('on');
+    overlay.style.opacity = '';
+    overlay.style.transition = '';
+    stopMusic();
+  }, 400);
+}
+</script>
+</body>
+</html>
